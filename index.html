@@ -3492,7 +3492,7 @@ class LiturgicalEngine {
     if (date.getTime() <= anchors.ashWed.getTime()) {
       return 1 + Math.floor(dayDiff(date, anchors.baptism) / 7);
     } else {
-      return 34 - Math.floor(dayDiff(anchors.christKing, date) / 7);
+      return 33 - Math.floor(dayDiff(anchors.christKing, date) / 7);
     }
   }
   getOrdinarySundayName(date, anchors, lang) {
